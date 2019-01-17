@@ -27,4 +27,8 @@ public class fundAccount extends Account {
 		System.out.println("수익률 : " + this.earningRate + "%");
 		System.out.println("수익이 발생하였습니다.");
 	}
+	
+	public String toString() {
+		return "수익률 : " + this.earningRate + "%";
+	}
 }
