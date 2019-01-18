@@ -1,4 +1,4 @@
-package icehs.science.chapter10.Car;
+package icehs.science.chapter10;
 
 public class Truck extends Car{
 	private int maxWeight;
